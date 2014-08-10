@@ -1,4 +1,4 @@
-﻿#include "pch.h"
+#include "pch.h"
 #include "testlibevent.h"
 #include <event.h>
 #include <evdns.h>
@@ -80,7 +80,7 @@ void duservice()
 	
 	evdns_getaddrinfo(dnsbase,"www.baidu.com",NULL,&hints,cbdns,NULL);	
 	//event_get_ba
-	//event_base_dispatch(base);
+	event_base_dispatch(base);
 fini:
 	return;
 }
