@@ -149,7 +149,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\libtest\libtest.vcxproj">
+    <ProjectReference Include="..\libtest\libtest.vcxproj">
       <Project>{84B06E29-97FB-43E7-98F9-B67B2C84F8E4}</Project>
       <Name>libtest</Name>
     </ProjectReference>
